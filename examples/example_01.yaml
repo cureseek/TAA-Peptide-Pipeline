@@ -1,0 +1,17 @@
+# Example 1: one tumor FASTQ pair + one normal FASTQ pair
+#
+# This is an illustrative upstream sequencing-input configuration.
+# TAA_analysis_01.py and TAA_analysis_02.py do not read this YAML
+# directly. They consume previously generated RNA quantification
+# and HLA-typing outputs.
+
+samples:
+
+  tumor_dna_r1: "/path/to/tumor_R1.fastq.gz"
+  tumor_dna_r2: "/path/to/tumor_R2.fastq.gz"
+
+  normal_dna_r1: "/path/to/normal_R1.fastq.gz"
+  normal_dna_r2: "/path/to/normal_R2.fastq.gz"
+
+  rna_r1: "/path/to/rna_R1.fastq.gz"
+  rna_r2: "/path/to/rna_R2.fastq.gz"

@@ -1,0 +1,17 @@
+# Example paths for documenting the TAA workflow.
+# IMPORTANT: Current TAA scripts use hardcoded paths.
+# They must be refactored before this YAML can be loaded directly.
+
+reference:
+  gdc_matrix: "/path/to/gdc_tpm_matrix.parquet"
+  gdc_manifest: "/path/to/gdc_manifest.tsv"
+  gencode_gtf: "/path/to/gencode.v50.annotation.gtf.gz"
+  gtex_tpm: "/path/to/gtex_gene_tpm.gct.gz"
+  gtex_metadata: "/path/to/gtex_sample_attributes.txt"
+
+tools:
+  mixmhc2pred_executable: "/path/to/MixMHC2pred"
+  mixmhc2pred_pwm: "/path/to/PWMdef"
+
+output:
+  root: "/path/to/output"

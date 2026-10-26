@@ -1,0 +1,11 @@
+# Direct Python dependencies of the two core TAA modules.
+# Versions must be validated against the working environments.
+numpy
+pandas
+pyarrow
+mhcflurry
+
+# Additional external dependencies:
+# - MixMHC2pred 2.0
+# - Its supported Conda environment
+# - nf-core/rnaseq with STAR + Salmon (upstream)

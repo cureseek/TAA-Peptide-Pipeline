@@ -218,3 +218,124 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# TAA patient data
+**/rnaseq-results/
+**/PipelineOutput/
+**/NewOutput/
+**/RawData/
+**/HLAclassification/
+**/peptide_prediction/
+**/protein_manifest.json
+**/TAA_Peptide.xml
+**/TAA_all_genes.csv
+
+# Sequencing files
+*.fastq
+*.fastq.gz
+*.fq.gz
+*.bam
+*.cram
+*.crai
+
+# Large reference files
+*.parquet
+*.gct.gz
+*.gtf.gz
+
+# Credentials
+.env
+.env.*
+*.pem
+*.key
+
+# Nextflow
+.nextflow/
+.nextflow.*
+work/
+
+# TAA patient data and analysis outputs
+**/rnaseq-results/
+**/PipelineOutput/
+**/NewOutput/
+**/RawData/
+**/HLAclassification/
+**/peptide_prediction/
+**/protein_manifest.json
+**/Targets_Gene_Sequence.txt
+**/TAA_all_genes.csv
+**/TAA_Peptide.xml
+
+# Sequencing and alignment
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.cram
+*.crai
+
+# Large reference datasets
+*.parquet
+*.gct
+*.gct.gz
+*.gtf
+*.gtf.gz
+
+# Sensitive configurations and credentials
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*_secret.yaml
+*_credentials.json
+
+# Nextflow
+.nextflow/
+.nextflow.*
+work/
+
+# TAA patient data and analysis outputs
+**/rnaseq-results/
+**/PipelineOutput/
+**/NewOutput/
+**/RawData/
+**/HLAclassification/
+**/peptide_prediction/
+**/protein_manifest.json
+**/Targets_Gene_Sequence.txt
+**/TAA_all_genes.csv
+**/TAA_Peptide.xml
+
+# Sequencing and alignment
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.cram
+*.crai
+
+# Large reference datasets
+*.parquet
+*.gct
+*.gct.gz
+*.gtf
+*.gtf.gz
+
+# Sensitive configurations and credentials
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*_secret.yaml
+*_credentials.json
+
+# Nextflow
+.nextflow/
+.nextflow.*
+work/
