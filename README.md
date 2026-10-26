@@ -204,8 +204,6 @@ The protein retrieval routine:
 5. Stores the canonical reference sequence, UniProt accession, Ensembl ID, protein length, sequence version, and SHA256 checksum.
 6. Reuses a previously validated local sequence cache unless protein refresh is requested.
 
-**Limitation:** An exact gene-symbol fallback is less specific than a verified Ensembl cross-reference. A canonical UniProt protein is also not proof that the same protein isoform is expressed in the patient's tumor.
-
 ### MHC Class I
 
 | Parameter | Current configuration |
